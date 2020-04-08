@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>This is the Title.</title>
+	<link rel="stylesheet" type="text/css" href="basics.css">
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+	
+	<script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<div class="HTML_heading_paragraph">
+	<h1>This is a Heading 1</h1> <!-- this H command use to print heading -->
+	<h2>This is a Heading 2</h2>
+	<h3>This is a Heading 3</h3>
+	<h4>This is a Heading 4</h4>
+	<h5>This is a Heading 5</h5>
+	<h6>This is a Heading 6</h6>
+
+
+	<p>This is paragraph</p>  
+<!-- this P command use to print paragraph to webpage -->
+<!--<b></b> and <strong></strong> is used to print bold text but b is the old way.
+<i></i> and <em> </em> i is used to print italic text but i is old way. -->
+</div>
+
+
+
+<div class="HTML_Lists">
+     <h1>Lists</h1>
+     <ol>
+     	<li>First Item</li>
+     	<li>Second Item</li>
+     	<li>Third Item</li>
+     </ol>
+     <ul>
+     	<li>First Item</li>
+     	<li>Second Item</li>	
+     	<ul>
+     		<li>I am nested inside</li>
+     		<li>Also nested.</li>
+     	</ul>
+     	<li>Third Item</li>
+     </ul>
+</div> 
+<!-- In here, I have to learn about Lists like ul(unordered lists), ol(ordered lists) and li(list),
+also about nested list. After list, I ve to use ul or ol command to create nested list. -->
+
+
+<div class="HTML_div_span">
+	<p>In this <span>topic i will learn</span> about "div" and "span"</p>
+</div>
+<!-- In here, I can learn about div and span which is div is used to take one block of codes
+to apply "css" codes later but span is used for only particular part to apply "css". Inside
+"div" there is "class" which is used to call in css. -->
+
+<div class="HTML_image_ahref">
+
+	<a href="(page_name).html">(Any text) Click me</a>
+	
+</div>
+<!-- In here, i can learn about import image with "img" command and also "src" is used to source/location of picture
+and "alt" in most modern web browsers print that text inside "alt" if image not found. Also "a"(anchor text) is 
+used to connect another page or website link of page or website is inside "href="(link of page)""
+ -->
+
+ <div class="tables">
+ 	<table border="1">
+ 		<thead>
+ 			<th>Number</th>
+ 			<th>Color</th>
+ 			<th>Country</th>
+ 		</thead>
+ 		<tr>
+ 			<td>250</td>
+ 			<td>red</td>
+ 			<td>USA</td>
+ 		</tr>
+ 	</table>
+ </div>
+<!--  In here, i learnt about how to create table in HTML. To this, I have to use command "table" and to add border to table 
+ use "border = " command. Inside of table to print header of table we use "thead" inside "th" or to create row use "tr" 
+ inside "td". -->
+
+<div class="forms">
+	
+    <form class="HTML_form">
+    	<h1>Log in</h1>
+	    <h2>Please enter your Email and Password</h2>
+
+	    <input type="Email" name="user_email" placeholder="Email" required="">
+	    <input type="Password" name="user_password" placeholder="Password">
+	    <input type="submit" name="" value="submit">
+	    <input type="Color" name="">
+	    <input type="text" name="">
+		
+	</form>
+	<!-- forms are commonly use in HTMl to create text holder, email holder,and others. To create this kind of forms in here
+	you can use "form" and inside form "input" and type =(what kind of you wanna create). "required commend use to u must 
+	enter some kind of info". value == placeholder(disappear after input) -->
+	
+	<form action="https://www.facebook.com" method="get" class="action">
+		<p>Enter Text:</p>
+		<input type="text" name="user_text" placeholder="your text">
+		<input type="submit" name="user_submit">
+
+	</form>
+	<!-- action method are used to lead u certain type of link. -->
+	
+	<form class="HTML_lables">
+		<label for="user_input">Enter Input:</label>
+		<input id="user_input"  type="text" name="">
+		
+	</form>
+
+	<!-- to labeling certain type of input i ve to use "for="" " and to call for i ve to use "id=". Using for is much more 
+	better than repeating labeling again and again. -->
+    
+ <div class="fronts">
+ 	<h1>Heading one.</h1>
+
+ 	<p id="text01">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+
+
+
+ 	<p id="text02">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+ 	
+ </div>
+ 
+ <h1 id="top">TOP</h1>
+ <h1 id="bottom">BOTTOM</h1>
+
+
+
+	
+</div>
+
+<script type="text/javascript" src="basics.js"></script>
+
+</body>
+</html>

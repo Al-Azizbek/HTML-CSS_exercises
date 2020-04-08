@@ -1,0 +1,47 @@
+body {
+	background-color: blue;
+	color: white;
+
+}
+
+div{
+	width: 80%;
+	background-color: #1c1257;
+	margin:auto; 
+	height: 1500px;
+	margin-top: 30px;
+}
+div p{
+	padding-left:120px;
+	padding-right: 120px;
+	font-weight: bold;
+}
+h1, h3{
+	text-align: center; 
+	margin-top: 20px;
+	color: red;
+
+}
+form{
+	width: 30%;
+	margin:auto;
+}
+input{
+	width: 170px;
+	height: 20px;
+	margin-left: 80px;
+}
+.button01{
+	width: 100px;
+	margin-left: 125px;
+	color: white;
+	background-color: red;
+	border-radius: 10px;
+    margin-top: 20px;
+	padding: 25px;
+	text-align: center;
+}
+.me {
+	color: red;
+	margin-left: 20px;
+}

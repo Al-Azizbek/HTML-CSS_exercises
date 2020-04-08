@@ -1,0 +1,34 @@
+h1{
+	color: purple;
+	border-style: solid;
+    text-align:center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.fronts{
+	font-family: "Arial";
+	font-size: 25px;
+	font-style: italic;
+	font-weight: bold;
+}
+/*1em == 16 px
+2em == 32 px*/
+
+/*CSS FONT STACK/ GOOGLE FONTS/ is a website to check your choice is avaiable or not 
+which means whis website is used to check MacOS, windows and Linux font choices.*/
+
+#top{
+	border: 4px solid blue;
+	width: 25%;
+	text-align: center;
+	margin: auto;
+	padding: 25px;
+	/*margin: 10px 20px 100px 400px; */
+	/*top right bottom left*/
+
+}
+
+#bottom{
+	border-style: 4px solid red; 
+
+}
